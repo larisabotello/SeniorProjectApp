@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.laris.testregistration.Activities.MenuActivity"
+android:id="@+id/activity_menu">
+<LinearLayout
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:text="View Profile"
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2833"/>
+    <TextView
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:text="Chat Rooms"
+        android:id="@+id/tv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2833"/>
+    <TextView
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:text="Personal Chats"
+        android:id="@+id/tv_personal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1C2833"/>
+</LinearLayout>
+</ScrollView>

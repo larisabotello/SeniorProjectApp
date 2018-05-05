@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laris.testregistration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Clicked"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.MenuActivity" />
+        <activity android:name=".Activities.Profile" />
+        <activity android:name=".Activities.GroupChatActivity" />
+        <activity android:name=".Activities.RoomsActivity" />
+        <activity android:name=".Activities.PersonalChats" />
+        <activity android:name=".Activities.List_Users" />
+        <activity android:name=".Activities.OneToOneActivity"></activity>
+    </application>
+
+</manifest>
